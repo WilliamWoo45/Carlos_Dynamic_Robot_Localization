@@ -64,12 +64,12 @@
 	<arg name="robot_initial_pose_in_base_to_map" default="false" /> <!-- recommendation: use false to allow direct publish of tf between odom -> map -->
 	<arg name="robot_initial_pose_available" default="true" />
 	<!-- <arg name="robot_initial_pose_available" default="false" /> -->
-	<arg name="robot_initial_x" default="0.5" />
-	<arg name="robot_initial_y" default="6" />
+	<arg name="robot_initial_x" default="-1" />
+	<arg name="robot_initial_y" default="9.5" />
 	<arg name="robot_initial_z" default="0.0" />
 	<arg name="robot_initial_roll" default="0.0" />
 	<arg name="robot_initial_pitch" default="0.0" />
-	<arg name="robot_initial_yaw" default="1.57" />
+	<arg name="robot_initial_yaw" default="-1.57" />
 	
 	<!-- laser scan assembler -->
 	<arg name="use_laser_assembler" default="1" />
